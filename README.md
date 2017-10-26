@@ -16,7 +16,10 @@ chmod 755 MySQLBackup.sh
 
 # Cronjob
 > Add new cron job to crontab:
+
 > crontab –e 
+
 > 0 0 * * * /home/scripts/MySQLBackup.sh
+
 > the MySQLBackup.sh shell script will be run exactly execute at midnight every night. adjust this as desired.
 
